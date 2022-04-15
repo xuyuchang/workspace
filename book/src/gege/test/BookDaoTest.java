@@ -18,6 +18,7 @@ public class BookDaoTest {
     public void addBook() {
         Book book = new Book(null,"大家好","徐玉昌",new BigDecimal(333),210,333,"static/img/1.jpg");
         bookDao.addBook(book);
+        System.out.println("push");
 
     }
 
